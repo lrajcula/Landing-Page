@@ -3,3 +3,18 @@
 	font-size: 3em;
 	font-color: blue;
 }
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+/*Top Navigation*/
+.top-navigation {
+	background-color: #ffffff;
+}
+.top-navigation > .content {
+	width: 966px;
+	height: 71px;
+	margin: 0 auto;
+}
