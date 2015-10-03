@@ -1,7 +1,9 @@
-.h1 {
-	font-family: helvetica;
-	font-size: 3em;
-	font-color: blue;
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 body {
     background-color: LightGray;
@@ -14,15 +16,38 @@ div {
 	background-color: #ffffff;
 }
 .top-navigation > .content {
-	width: 966px;
-	height: 71px;
+	width: 970px;
+	height: 70px;
 	margin: 0 auto;
 }
-.content > img {
-	margin-left: 55px;
+div.content {
+	padding: 0px 15px;
+}
+img .logo {
 	height: 70px;
 }
-
-.links {
-
+.top-navigation .links {
+	float: right;
 }
+.top-navigation .links li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+html, p, body {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+color: #838994;
+letter-spacing: 0.03em;
+}
+
+
+
