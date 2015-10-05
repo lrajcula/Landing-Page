@@ -18,12 +18,15 @@ div {
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
-	margin: 0 auto;
+	margin:0 auto;
 }
 div.content {
 	padding: 0px 15px;
+	width: 970px;
+	height: 100%;
+	margin:0 auto;
 }
-img .logo {
+img.logo {
 	height: 70px;
 }
 .top-navigation .links {
@@ -42,12 +45,53 @@ img .logo {
 	cursor: pointer;
 	color: #333333;
 }
-html, p, body {
+.introduction {
+	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 735px;
+	text-align: center;
+	margin:0 auto;
+	overflow: auto;
+}
+body {
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
 color: #838994;
 letter-spacing: 0.03em;
+line-height: 1;
 }
-
-
-
+.introduction h1,
+.introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+.introduction h1 {
+	margin-top: 280px;
+	font-size: 50px;
+}
+.introduction h3 {
+	margin-top: 20px;
+	font-size: 25px;
+}
+.big-button {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 26px;
+	line-height: 1.33;
+	margin:0 auto;
+	margin-top: 25px;
+	width: 18%;
+	background-color: #E75728;
+	font-size: 18px;
+	color: white;
+}
+.big-button:hover {
+	cursor: pointer;
+	background-color: #d9400e;
+}
