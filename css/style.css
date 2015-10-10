@@ -8,12 +8,12 @@ html {
 body {
     background-color: LightGray;
 }
-div {
-    border: 1px solid Chocolate;
-}
 /*Top Navigation*/
 .top-navigation {
 	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .top-navigation > .content {
 	width: 970px;
@@ -121,9 +121,12 @@ line-height: 1;
 }
 .cases .devices > li {
 	width: 33.33%;
+	display: inline-block;
 	float: left;
+	box-sizing: border-box;
 }
 ul.devices {
 	list-style: none;
 	float: left;
+	margin-left: 64px;
 }
