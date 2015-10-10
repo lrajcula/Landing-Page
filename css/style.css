@@ -95,3 +95,35 @@ line-height: 1;
 	cursor: pointer;
 	background-color: #d9400e;
 }
+.cases {
+	background-color: #ffffff;
+	overflow: hidden;
+	padding-bottom: 80px;
+}
+.cases .content {
+	margin-top: 126px;
+	color: #1d1e21;
+	text-align: center;
+}
+.cases h2 {
+	font-size: 44px;
+	color: #000000;
+	text-align: center;
+	font-weight: 300;
+	margin: 26px 0px 50px;
+}
+.cases .devices h3 {
+	color: #000000;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+	margin: 40 0 30;
+}
+.cases .devices > li {
+	width: 33.33%;
+	float: left;
+}
+ul.devices {
+	list-style: none;
+	float: left;
+}
