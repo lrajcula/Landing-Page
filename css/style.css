@@ -130,3 +130,42 @@ ul.devices {
 	float: left;
 	margin-left: 64px;
 }
+ul.icons {
+	text-align: center;
+	list-style: none;
+	}
+.social .icons > li {
+	border-radius: 25px;
+	border: 1px solid #eaebec;
+	width: 40px;
+	height: 40px;
+	padding-top: 10px;
+	display: inline-block;
+	text-align: center;
+}
+.fa-twitter {
+	color: #55acee;
+}
+.fa-facebook {
+	color: #4c66a4;
+}
+.fa-instagram {
+	color: #3f729b;
+}
+.social > h5, h6 {
+	color: #000000;
+	text-align: center;
+	margin-left: 50px;
+	font-size: 18px;
+	font-weight: 300;
+}
+hr {
+	width: 60%;
+	height: 1px;
+}
+footer {
+	background-color: #ffffff;
+}
+body {
+	background-color: #ffffff;
+}
